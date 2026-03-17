@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(90deg, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%);
+
+    background-size: 800% 800%;
+    height: 900px;
+    overflow: auto;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    10% {background-position: 0% 50%;}
+}
+
+.save{
+    width: 600px;
+    text-align: center;
+    background: #fff;
+    height: 550px;
+    padding: 10px;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+input
+{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: #E5E5E5;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 10px;
+
+}
+
+
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    background: #000000 !important;
+    border: none;
+    min-width: 180px;
+}
+.btn:hover, .btn:focus {
+    background: #4c8da9 !important;
+}
+#submit  {
+    background: none !important;
+    color: #ffffff;
+    margin-top: -5%;
+}
+.copyright {
+    transform: translate(0%, -100%);   
+}

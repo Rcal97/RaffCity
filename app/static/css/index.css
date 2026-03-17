@@ -1,0 +1,39 @@
+section{
+    padding: 70px 0;
+}
+
+.titolo {
+    font-size: 1000px;
+    text-align: center;
+    color: #ffffff;
+    font-family: fantasy;
+}
+
+#what-we-do .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:7rem;
+    border-radius: 10px;
+    transform: translate(+110%, +40%);
+}
+
+#what-we-do .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+
+.img {
+    transform: translate(+130%, +0%);
+}
+
+body {
+    background: linear-gradient(90deg, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%);
+    background-size: 400% 400%;
+    
+    
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    10% {background-position: 0% 50%;}
+}

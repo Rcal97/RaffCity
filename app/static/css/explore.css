@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(90deg, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%);
+
+    height: 600px;
+    background-size: 600% 600%;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    10% {background-position: 0% 50%;}
+}
+
+
+.city{
+    border-radius: 6.25rem;
+}
+
+.logo
+{
+    top: 30px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 100px;
+
+}
+
+
+#mapid{
+    transform: translate(+0%, -1%);
+    width: auto;
+}
+
+.t{
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: inherit;
+    font-weight: bold;
+    color: #ffffff;
+}

@@ -1,0 +1,7 @@
+.navbar.navbar-dark.navbar-expand-md.bg-dark {
+    height: 100px;
+    background: linear-gradient(90deg, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%, rgb(68, 100, 181) 0%);
+
+    background-size: 400% 400%;
+    margin-bottom: -20px;
+}
