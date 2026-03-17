@@ -16,7 +16,7 @@ let filesToCache = [
     './static/images/bus.png',
     './static/images/location.png',
     './static/images/city.png',
-    './static/images/smart-city.png',
+    './static/images/raff-city.png',
     './static/images/point.png',
     './static/images/white.png',
     './static/images/white-bus.png',
